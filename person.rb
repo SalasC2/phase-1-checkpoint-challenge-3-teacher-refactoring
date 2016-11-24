@@ -4,7 +4,7 @@ class Person
 
   def initialize(options = {})
    @name = options.fetch(:name, "")
-   @age = options.fetch(:age, 0)
+   @age = options.fetch(:age, 0) 
   end
 
   def offer_high_five
