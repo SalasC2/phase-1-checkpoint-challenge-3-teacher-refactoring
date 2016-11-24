@@ -16,7 +16,7 @@ class ApprenticeTeacher < Teacher
     response += "Listen, class, this is how everything works. "
     response += "*drops crazy knowledge bomb* "
     response += "... You're welcome."
-    response
+    response 
   end
 
   def set_performance_rating(rating)
