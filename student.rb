@@ -6,7 +6,7 @@ class Student < Person
 
   def initialize(options = {})
     super
-    @phase = 1
+    @phase = 1 
     # @age = options.fetch(:age, 0)
     # @name = options.fetch(:name, "")
   end
