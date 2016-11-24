@@ -1,7 +1,7 @@
 require_relative 'teacher'
 
 class SeniorTeacher < Teacher
-  attr_reader :performance_rating
+  attr_reader :performance_rating 
   # attr_accessor :name
 
   def initialize(options={})
